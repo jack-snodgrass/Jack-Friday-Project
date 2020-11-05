@@ -6,8 +6,8 @@ import genres from '../../data/genres'
 const genresKeys = Object.keys(genres)
 const Nav = () => {
   // console.log('Nav genre:', JSON.stringify(genresKeys))
-  return (
-    <div>
+    return (
+       <div className= 'navStyle'>
       <h2>Genre</h2>
       <ul>
         {genresKeys.map(genre => {

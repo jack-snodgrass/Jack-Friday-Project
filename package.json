@@ -51,6 +51,8 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "react-bootstrap": "^1.4.0"
   }
 }
