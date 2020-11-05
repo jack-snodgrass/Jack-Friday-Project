@@ -40,13 +40,13 @@ li a {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 320px) {
     .background {
-      background-color: yellow;
+      background-color: red;
 
     }
 
-}    
+}   
 
 @media only screen and (max-width: 1024px) {
     ul {
@@ -54,3 +54,11 @@ li a {
       color: rgb(19, 179, 19);
     }
   }
+
+@media only screen and (min-width: 1200px) {
+    .background {
+      background-color: yellow;
+
+    }
+
+}   
