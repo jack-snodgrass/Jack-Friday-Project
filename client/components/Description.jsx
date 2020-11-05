@@ -12,7 +12,7 @@ const Description = props => {
   // )
   console.log('description props:', props)
   return (
-    <div className='description'>
+    <div className='col-3 description'>
       <img src={`/images/${props.match.params.name}.jpg`}></img>
       <h2>{props.match.params.name}</h2>
       <p> {genre.description}</p>

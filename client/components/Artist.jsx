@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Artist = props => {
   console.log('Artist props:', props)
   return (
-    <div className='artist'>
+    <div className='col-2 artist'>
       <li><Link to={`/info/${props.parent}/${props.name}`}>{props.name}</Link></li>
     </div>
   )
