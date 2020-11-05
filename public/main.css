@@ -57,10 +57,20 @@ li a {
 @media only screen and (max-width: 1024px) {
     ul {
       background-color: lightblue;
-      color: rgb(19, 179, 19);
+      color: rgb(3, 32, 70);
     }
   }
 
+  @media only screen and (max-width: 768px) {
+        ul {
+          background-color: rgb(0, 255, 21);
+          font-family: 'Syne Mono', monospace;
+        }
+        p {
+            font-family: 'Syne Mono', monospace;
+            font-size: 30px;
+        }
+      }
 @media only screen and (min-width: 1200px) {
     .background {
       background-color: yellow;
