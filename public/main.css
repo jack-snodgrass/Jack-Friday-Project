@@ -40,6 +40,12 @@ li a {
 
 }
 
+.homeLink {
+    text-align: center;
+
+}
+
+
 @media only screen and (max-width: 320px) {
     .background {
       background-color: red;
