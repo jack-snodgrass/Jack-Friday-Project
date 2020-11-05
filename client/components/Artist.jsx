@@ -6,7 +6,7 @@ const Artist = props => {
   console.log('Artist props:', props)
   return (
     <div className='artist'>
-      <li><Link to={`/genre/${props.parent}/${props.name}`}>{props.name}</Link></li>
+      <li><Link to={`/info/${props.parent}/${props.name}`}>{props.name}</Link></li>
     </div>
   )
 }

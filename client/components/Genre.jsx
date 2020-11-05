@@ -7,7 +7,7 @@ const Genre = props => {
   // console.log('genre props:', props)
   return (
     <div className='genre'>
-      <li><Link to={`/list/${props.name}`}>{props.name}</Link></li>
+      <li><Link to={`/genre/${props.name}`}>{props.name}</Link></li>
     </div>
   )
 }
