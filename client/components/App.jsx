@@ -17,7 +17,6 @@ const App = () => {
         <Route path='/genre/:genre' component={AllArtists} />
         <Route exact path='/' component={Home} />
       </div>
-
     </>
   )
 }
