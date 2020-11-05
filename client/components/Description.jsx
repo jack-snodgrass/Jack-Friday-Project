@@ -11,11 +11,9 @@ const Description = props => {
 
   // )
   console.log('description props:', props)
-  const fileName = props.match.params.name
   return (
-    <div className='col-3 description'>
-
-      <img src={`/images/${fileName}.jpg`}></img>
+    <div className='description'>
+      <img src={`/images/${props.match.params.name}.jpg`}></img>
       <h2>{props.match.params.name}</h2>
       <p> {genre.description}</p>
       <h3>Songs</h3>
