@@ -33,3 +33,10 @@ li a {
     text-align: center;
 
 }    
+
+@media only screen and (max-width: 1024px) {
+    ul {
+      background-color: lightblue;
+      color: rgb(19, 179, 19);
+    }
+  }
