@@ -70,6 +70,9 @@ li a {
             font-family: 'Syne Mono', monospace;
             font-size: 30px;
         }
+        .main {
+            flex-direction: column;
+        }
       }
 @media only screen and (min-width: 1200px) {
     .background {
@@ -80,14 +83,8 @@ li a {
 }   
 
   @media only screen and (max-width: 425px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
+    .main {
+    flex-direction: column;
     }
   }
-
   
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }

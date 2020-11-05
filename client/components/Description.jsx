@@ -12,7 +12,7 @@ const Description = props => {
   // )
   console.log('description props:', props)
   return (
-    <div className='col-3 description'>
+    <div className='description'>
       <h2>{props.match.params.name}</h2>
       <p> {genre.description}</p>
       <h3>Songs</h3>
