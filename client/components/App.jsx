@@ -9,7 +9,7 @@ import Description from './Description'
 const App = () => {
   return (
     <>
-      <h1>Welcome to BEATLE TUNES!!</h1>
+      <h1 className="home_header">Welcome to BEATLE TUNES!!</h1>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
         <Nav />
@@ -17,7 +17,7 @@ const App = () => {
         <Route path='/genre/:genre' component={AllArtists} />
         <Route exact path='/' component={Home} />
       </div>
-      
+
     </>
   )
 }

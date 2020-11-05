@@ -10,7 +10,7 @@
     "webpack": "webpack",
     "client": "webpack --watch",
     "server": "node server",
-    "test": "jest --watch --noStackTrace",
+    "test": "jest --watchAll --noStackTrace",
     "lint": "eslint ."
   },
   "babel": {
