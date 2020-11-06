@@ -10,8 +10,12 @@
 }
 
 .background {
-    background-color: whitesmoke;
+    background-color: white;
 
+}
+.header_pic{
+    width: 60px;
+    height: 30px;
 }
 .genre_ul {
     list-style-type: none;
