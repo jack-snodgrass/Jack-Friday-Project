@@ -11,7 +11,7 @@ const AllArtists = props => {
       <h2>{props.match.params.genre}</h2>
       <ul className='artist_ul'>
         {genres[props.match.params.genre].map(genre => {
-          return <Artist key={genre.id} parent={props.match.params.genre} name={genre.name} description={genre.description}/>
+          return <Artist key={genre.id} parent={props.match.params.genre} name={genre.name} description={genre.description} url={genre.url}/>
         }
         )}
       </ul>

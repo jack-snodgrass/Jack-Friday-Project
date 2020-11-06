@@ -41,7 +41,8 @@ const genres = {
         'Solar',
         'So what',
         'Concierto de Aranjuez'
-      ]
+      ],
+      url: 'https://open.spotify.com/embed/playlist/37i9dQZF1DX3BqHI5fuXWV'
     }
   ],
   rock: [
