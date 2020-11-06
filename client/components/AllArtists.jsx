@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { Route, Link } from 'react-router-dom'
 import genres from '../../data/genres'
@@ -10,7 +9,7 @@ const AllArtists = props => {
   return (
     <div className='all_artists'>
       <h2>{props.match.params.genre}</h2>
-      <ul>
+      <ul className='artist_ul'>
         {genres[props.match.params.genre].map(genre => {
           return <Artist key={genre.id} parent={props.match.params.genre} name={genre.name} description={genre.description}/>
         }

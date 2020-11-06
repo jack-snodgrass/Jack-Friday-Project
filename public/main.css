@@ -13,8 +13,31 @@
     background-color: whitesmoke;
 
 }
-
-ul {
+.genre_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.genre_li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.genre_li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.genre_li a:hover {
+    background-color: #555;
+    color: white;
+} 
+.artist_ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,7 +45,7 @@ ul {
     background-color: #f1f1f1;
 }
 
-li a {
+.artist_li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -30,10 +53,10 @@ li a {
 }
 
     /* Change the link color on hover */
-    li a:hover {
+    .artist_li a:hover {
         background-color: #555;
         color: white;
-    }
+    } 
 
 .home_header {
     text-align: center;

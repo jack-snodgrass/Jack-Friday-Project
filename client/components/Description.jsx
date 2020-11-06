@@ -19,7 +19,7 @@ const Description = props => {
       <h3>Songs</h3>
       <ul>
         {songs.map(song => {
-          return <li key={song}><button className="myButtons"><Link to={`/genre/${props.name}`}>{song}</Link></button></li>
+          return <li className='genre_li' key={song}><button className="myButtons"><Link to={`/genre/${props.name}`}>{song}</Link></button></li>
         }
         )}
       </ul>

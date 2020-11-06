@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className= 'navStyle'>
       <h2>Genre</h2>
-      <ul>
+      <ul className='genre_ul'>
         {genresKeys.map(genre => {
           return <Genre key={genre} name={genre}/>
         }
