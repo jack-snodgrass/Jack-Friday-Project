@@ -16,8 +16,8 @@ const Description = props => {
   return (
     <div className='description'>
       <img className='artistImage' src={`/images/${props.match.params.name}.jpg`}></img>
-      <h2>{props.match.params.name}</h2>
-      <p> {genre.description}</p>
+      <h2 className='summary'>{props.match.params.name}</h2>
+      <p className='summary'> {genre.description}</p>
       <h3>Songs</h3>
       <iframe src={url} width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       <iframe src={follow} width="300" height="56" scrolling="no" frameBorder="0" style={{ border: 'none', overflow: 'hidden' }} allowtransparency="true"></iframe>
