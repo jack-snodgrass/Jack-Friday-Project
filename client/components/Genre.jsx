@@ -7,7 +7,7 @@ const Genre = props => {
   return (
 
     <div className='genre'>
-      <li><button className="myButtons"><Link to={`/genre/${props.name}`}>{props.name}</Link></button></li>
+      <li className='genre_li'><Link to={`/genre/${props.name}`}>{props.name}</Link></li>
     </div>
   )
 }
