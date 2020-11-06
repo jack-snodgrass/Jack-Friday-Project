@@ -7,6 +7,7 @@ const Description = props => {
   const genre = genres[props.match.params.genre].find(genre => genre.name === props.match.params.name)
   const songs = genre.songs
   const url = genre.url
+  const follow = genre.follow
   // console.log(JSON.stringify(obj))
   // return <Description key={genre.id} name={genre.name} description={genre.description}/>
 
@@ -19,6 +20,7 @@ const Description = props => {
       <p> {genre.description}</p>
       <h3>Songs</h3>
       <iframe src={url} width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src={follow} width="300" height="56" scrolling="no" frameBorder="0" style={{ border: 'none', overflow: 'hidden' }} allowtransparency="true"></iframe>
     </div>
   )
 }
