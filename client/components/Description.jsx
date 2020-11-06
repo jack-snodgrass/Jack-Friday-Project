@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Route, Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import genres from '../../data/genres'
 
 // Create Post template to be used in AllPosts parent instance of posts
@@ -19,10 +19,9 @@ const Description = props => {
       <h3>Songs</h3>
       <ul>
         {songs.map(song => {
-          return <li key={song}>{song}</li>
+          return <li key={song}><button className="myButtons"><Link to={`/genre/${props.name}`}>{song}</Link></button></li>
         }
         )}
-
       </ul>
     </div>
   )

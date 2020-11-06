@@ -63,7 +63,7 @@ li a {
 
   @media only screen and (max-width: 768px) {
         ul {
-          background-color: rgb(182, 248, 187);
+          background-color:  rgb(246, 246, 199);
           font-family: 'Syne Mono', monospace;
         }
         p {
@@ -88,3 +88,6 @@ li a {
     }
   }
   
+  .myButtons{
+    min-width: 100%;
+  }
