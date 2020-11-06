@@ -12,7 +12,7 @@ const App = () => {
       <div>
         {/* <img src={`/images/${props.match.params.name}.jpg`}></img> */}
 
-        <h1 className="home_header"><img className="header_pic" src="images/Logo.png" alt="Beatles Logo"></img>   Welcome to <Link to='/'>BEATLE TUNES!!</Link></h1>
+        <h1 className="home_header"><img className="header_pic" src="images/Logo.png" alt="Beatles Logo"></img><Link to='/'>    Welcome to BEATLE TUNES!!</Link></h1>
       </div>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
