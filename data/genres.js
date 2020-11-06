@@ -82,7 +82,9 @@ const genres = {
         'Hey Jude',
         'Let it Be',
         'Elanor Rigby'
-      ]
+      ],
+      url: 'https://open.spotify.com/embed/artist/3WrFJ7ztbogyGnTHbHJFl2',
+      follow: 'https://open.spotify.com/follow/1/?uri=spotify:artist:3WrFJ7ztbogyGnTHbHJFl2?si=HSoaPdFBSbuXiYPTHyRC1A&amp;size=detail&amp;theme=light'
     },
     {
       id: 9,
@@ -104,7 +106,10 @@ const genres = {
         'Sing for the Moment',
         'Without Me',
         'Mockingbird'
-      ]
+      ],
+      url: 'https://open.spotify.com/embed/artist/7dGJo4pcD2V6oG8kP0tJRR',
+      follow: 'https://open.spotify.com/follow/1/?uri=spotify:artist:7dGJo4pcD2V6oG8kP0tJRR?si=MM3c2AApT0S11AqaAeNWgg&amp;size=detail&amp;theme=light'
+
     },
     {
       id: 11,
