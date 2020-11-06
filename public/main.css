@@ -1,7 +1,7 @@
 .main {
     display: flex;
     flex-direction: row;
-    font-family: Roboto;
+    font-family: 'Syne Mono', monospace;
     
 }
 
@@ -74,6 +74,14 @@
     width: 40%;
 
 
+}
+
+.img {
+  width: 425px;
+}
+
+h1.home_header {
+  font-family: 'Syne Mono', monospace;
 }
 
 
