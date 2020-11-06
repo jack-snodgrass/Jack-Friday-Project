@@ -84,6 +84,10 @@
   width: 425px;
 }
 
+.summary {
+    background-color:  #f1f1f1;
+}
+
 h1.home_header {
   font-family: 'Syne Mono', monospace;
 }
