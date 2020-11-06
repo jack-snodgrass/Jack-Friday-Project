@@ -13,7 +13,7 @@ const Description = props => {
   console.log('description props:', props)
   return (
     <div className='description'>
-      <img className="img" src={`/images/${props.match.params.name}.jpg`}></img>
+      <img className='artistImage' src={`/images/${props.match.params.name}.jpg`}></img>
       <h2>{props.match.params.name}</h2>
       <p> {genre.description}</p>
       <h3>Songs</h3>

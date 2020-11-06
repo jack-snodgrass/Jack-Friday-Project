@@ -67,8 +67,12 @@
 
 }
 
-.homeLink {
-    text-align: center;
+.artistImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
 
 }
 
