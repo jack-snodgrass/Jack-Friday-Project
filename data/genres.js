@@ -8,12 +8,9 @@ const genres = {
         'Mirrors',
         'Red Clay',
         'Little Sunflower'
-      ],
-      // //   urls: [
-      // //     mirrors:
-      // //   ]
-      // // },
-      // {
+      ]
+    },
+    {
       id: 2,
       name: 'Jim Hall',
       description: 'James Stanley Hall (December 4, 1930 – December 10, 2013) was an American jazz guitarist, composer and arranger.',
@@ -158,7 +155,8 @@ const genres = {
         'Professor Chaos',
         'MAD',
         'Warp Drive'
-      ]
+      ],
+      url: 'https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A2VwA37D4ISRone4OxmUdXS'
     }
   ]
 }
