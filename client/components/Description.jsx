@@ -15,6 +15,7 @@ const Description = props => {
   console.log('description props:', props, props.match.params.url)
   return (
     <div className='description'>
+      <br></br>
       <img className='artistImage' src={`/images/${props.match.params.name}.jpg`}></img>
       <h2>{props.match.params.name}</h2>
       <p> {genre.description}</p>
