@@ -80,7 +80,9 @@ h1.home_header {
   font-family: 'Syne Mono', monospace;
 }
 
-
+ul {
+  background-color: green;
+}
 @media only screen and (max-width: 320px) {
     .background {
       font-size: small;
