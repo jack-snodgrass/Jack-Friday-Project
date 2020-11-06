@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Link, Route } from 'react-router-dom'
+import { Link, Route } from 'react-router-dom'
 
 import Nav from './Nav'
 import Home from './Home'
@@ -9,7 +9,7 @@ import Description from './Description'
 const App = () => {
   return (
     <>
-      <h1 className="home_header">Welcome to BEATLE TUNES!!</h1>
+      <h1 className="home_header">Welcome to <Link to='/'>BEATLE TUNES!!</Link></h1>
       {/* This 'main' div is only for styling (so we can use flexbox) */}
       <div className='main'>
         <Nav />

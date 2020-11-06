@@ -16,7 +16,6 @@ const Nav = () => {
         }
         )}
       </ul>
-      <p className='homeLink'><Link to={'/'}>Home</Link></p>
     </div>
   )
 }
