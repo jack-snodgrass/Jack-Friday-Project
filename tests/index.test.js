@@ -5,7 +5,7 @@ import App from '../client/components/App'
 import Nav from '../client/components/Nav'
 
 test('<App /> returns main header text', () => {
-  const expected = 'Welcome to BEATLE TUNES!!<Nav /><Route /><Route /><Route />'
+  const expected = '    Welcome to BEATLE TUNES!!<Nav /><Route /><Route /><Route />'
   const wrapper = shallow(<App />)
   expect(wrapper.text()).toBe(expected)
 })
