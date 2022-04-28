@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import App from '../client/components/App'
-import Nav from '../client/components/Nav'
+import App from '../website-frontend/components/App'
+import Nav from '../website-frontend/components/Nav'
 
 test('<App /> returns main header text', () => {
   const expected = '    Welcome to BEATLE TUNES!!<Nav /><Route /><Route /><Route />'

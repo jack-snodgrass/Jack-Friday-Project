@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: './client/index.js',
+  entry: './website-frontend/index.js',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
@@ -9,9 +9,17 @@ module.exports = {
   mode: 'development',
   module: {
     rules: [{
-      test: /\.jsx?$/,
+      test: /\.js$|jsx/,
       loader: 'babel-loader',
       exclude: /node_modules/
+    },
+    {
+      test: /\.(s[ac]ss|css)$/i,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader'
+      ]
     }]
   },
   resolve: {
