@@ -19,7 +19,7 @@ const App = () => {
         <div>
           <Nav />
         </div>
-        <div className='displayinline'>
+        <div className='displayInline'>
           <Route path='/info/:genre/:name' component={Description} />
           <Route path='/genre/:genre' component={AllArtists} />
           <Route exact path='/' component={Home} />

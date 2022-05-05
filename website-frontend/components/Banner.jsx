@@ -17,7 +17,7 @@ class Banner extends React.Component {
     return (
       <>
         <section className='heroBanner' style={{ backgroundImage: 'url(' + '/images/Number1.jpeg' + ')' }}>
-          <div className="box box-red is-primary id-pulled-right">
+          <div className="box box-red is-primary id-pulled-right" style={{ marginTop: '100px' }}>
             <h1 className='bannerMainText'>What are you listening to?</h1>
             <p className='bannerText '><u><a onClick={this.scrollToList}>Discover new music below!</a></u></p>
           </div>

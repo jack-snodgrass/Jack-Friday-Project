@@ -60,12 +60,10 @@
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    display: flex;
 }
 
 .all_artist{
   margin-top: 70px;
-  display: flex;
 }
 
 .artist_li a {
